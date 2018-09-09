@@ -1,0 +1,5 @@
+@xset s off
+@xset -dpms
+@xset noblank
+@chromium-browser --incognito --kiosk http://afc-prayer-server.local:5601
+@unclutter -display :0 -noevents
