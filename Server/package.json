@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Prayer Request Server",
+  "main": "webserver.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thuddwin/PRS.git"
+  },
+  "author": "David J McKay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thuddwin/PRS/issues"
+  },
+  "homepage": "https://github.com/Thuddwin/PRS#readme",
+  "dependencies": {
+    "serverio": "0.0.5",
+    "socket.io": "^4.1.2"
+  }
+}
